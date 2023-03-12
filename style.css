@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+#heading{
+    text-align: center;
+    font-size: 3rem ;
+    font-weight: 900;
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+}
+.toggle {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    transition: all ease-in-out 1s;
+}
+.toggle.active {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    transition: all ease-in-out 1s;
+}
+.btn{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 3rem;
+    position: absolute;
+    right: 14.5rem;
+    top: 20rem;
+    background-color: black;
+}
+.btn.active{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 3rem;
+    position: absolute;
+    right: 14.5rem;
+    top: 20rem;
+    background-color: white;
+}
+.parag{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    left: 35%;
+    top: 51%;
+}
+#para{
+    display: inline;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.btnn{
+    color: black;
+}
+.btnn.active{
+    color: white;
+}
